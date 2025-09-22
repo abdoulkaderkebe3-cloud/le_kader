@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>formulaire</title>
+        <link rel="stylesheet" href="formulaire.css">
+        
+    </head>
+    <body>
+        <div>
+        <form method="post" action="traitement.php">
+            <fieldset id="section">
+                <legend>vos informations </legend>
+            <label for="prenom">entrez votre prenom</label>
+            <input type="text" id="prenom" name="prenom"><br>
+            <label for="prez">une petite presentation</label>
+            <textarea id="prez" name="prez"></textarea><br>
+            <label for="pass">entrer un mot de passe</label>
+            <input type="password"id="pass" name="pass"><br>
+            <label for="naissance">entrer votre date de naissance</label>
+            <input type="date" id="naissance"name="naissance"><br>
+            <label for="email">entrer votre mail</label>
+            <input type="email" id="email" name="mail"><br>
+            <input type="radio"id="homme" name="sexe" value="homme">
+            <label for="homme">un homme</label>
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme">une femme</label>
+            <input type="checkbox" id="natation" name="sport"value="natation">
+            <label for="natation">natation</label>
+            <input type="checkbox" id="cyclisme"name="sport" value="cyclisme">
+            <label for="cyclisme">cyclisme</label>
+            <input type="submit" value="envoyer"><br>
+            </fieldset>
+        </form>
+        </div>
+    </body>
+</html>
